@@ -1,5 +1,7 @@
 # A Neural Algoritm of Artistic Style
-Pytorch reproduction of the paper ["A Neural Algoritm of Artistic Style"](https://arxiv.org/pdf/1508.06576.pdf "Paper Link")
+Pytorch reproduction of the paper ["A Neural Algoritm of Artistic Style"](https://arxiv.org/pdf/1508.06576.pdf "Paper Link"). Some improvements are made by adopting ideas from ["A Learned Representation for Artistic Style"](https://arxiv.org/pdf/1610.07629.pdf)
+1. Zero-padding is replaced with mirror-padding. 
+2. Transposed convolution is replaced with up-sampling and covolution. 
 
 ## Dependencies
 ```
